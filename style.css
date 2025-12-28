@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", monospace;
+}
+
+body {
+    background: black;
+    color: #ff2e2e;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* canvas background */
+#bugs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container {
+    width: 450px;
+    margin: 8% auto;
+    padding: 30px;
+    background: rgba(10, 0, 0, 0.9);
+    border: 1px solid #ff2e2e;
+    box-shadow: 0 0 30px #ff2e2e;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    font-size: 11px;
+    margin-bottom: 20px;
+    color: #ff7777;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    border: 1px solid #ff2e2e;
+    color: #ff2e2e;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    border: 1px solid #ff2e2e;
+    color: #ff2e2e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff2e2e;
+    color: black;
+}
+
+.terminal {
+    margin-top: 20px;
+    padding: 15px;
+    background: black;
+    border: 1px solid #ff2e2e;
+    text-align: left;
+    font-size: 12px;
+    height: 120px;
+    overflow-y: auto;
+}
+
+.result {
+    margin-top: 15px;
+    padding: 12px;
+    border: 1px solid;
+    animation: flicker 1.2s infinite alternate;
+}
+
+@keyframes flicker {
+    from { opacity: 0.7; }
+    to { opacity: 1; }
+}
+
+.safe { color: #3cff3c; border-color: #3cff3c; }
+.warning { color: #ffd93c; border-color: #ffd93c; }
+.danger { color: #ff2e2e; border-color: #ff2e2e; }
+
+.hidden { display: none; }
