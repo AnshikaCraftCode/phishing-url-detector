@@ -32,4 +32,5 @@ The application is fully client-side and focuses on **security awareness and fro
 - **JavaScript**
 
 ## 📸 Screenshot
-![image]https://github.com/AnshikaCraftCode/phishing-url-detector/blob/main/phishingurldetector.png
+<img width="1157" height="718" alt="image" src="https://github.com/user-attachments/assets/4905c00a-2f17-495d-aef4-5c72b16c7164" />
+
