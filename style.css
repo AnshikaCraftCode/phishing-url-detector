@@ -9,7 +9,7 @@ body {
     background: black;
     color: #ff2e2e;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* canvas background */
@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    width: 450px;
+    width: min(450px, 94%);
     margin: 8% auto;
     padding: 30px;
     background: rgba(10, 0, 0, 0.9);
@@ -34,11 +34,12 @@ body {
 h1 {
     font-size: 22px;
     letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 
 .subtitle {
     font-size: 11px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     color: #ff7777;
 }
 
