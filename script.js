@@ -1,6 +1,12 @@
 const terminal = document.getElementById("terminal");
 const resultBox = document.getElementById("resultBox");
 
+const scanButton = document.getElementById("scan");
+
+scanButton.addEventListener("click", () => {
+    startScan();
+});
+
 function startScan() {
     const url = document.getElementById("urlInput").value.trim();
     terminal.innerHTML = "";
